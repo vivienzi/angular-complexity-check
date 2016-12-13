@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  padding: 2%;
+  margin: 0.8em;
+  font-family: "Helvetica Neue",Helvetica,Verdana,Geneva, sans-serif;
+  line-height: 2em;
+  font-size: 62.5%;
+  height:100vh;
+}
+
+header {
+  background: dodgerblue;
+  color: #ffffff;
+  width: 100%;
+  padding: 0.2em;
+}
+header h1 {
+  text-align: center;
+  padding: 0.6em;
+}
+
+#main-container {
+  width: 100%;
+  margin: 0;
+  padding: 0.5em;
+  background: rgba(131, 178, 234, 0.8);
+}
+#main-container textarea {
+  margin-left: 10%;
+  border-radius: 0.5em;
+  padding: 2%;
+  border-left: 0.5em solid grey;
+  width: 80%;
+  height:35em;
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 2em;
+  overflow: auto;
+  color: #333;
+  background: #fff;
+  position: relative;
+}
+#main-container input {
+  background-color: #fff;
+  border: none;
+  border-radius: 5%;
+  color: dodgerblue;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  clear:left;
+  font-size: 2em;
+  margin-left: 10%;
+  box-shadow: 0 0 1em 0 grey;
+  width:auto;
+}
+
+#main-container input::after{
+  content: "";
+  display: inline-block;
+  width: 20em;
+}
+#main-container input:hover {
+  background: dodgerblue;
+  color: #fff;
+}
+#main-container h3 {
+  display: inline-block;
+  font-size: 3em; 
+}
+footer{
+	
+}
+
+
+
+
